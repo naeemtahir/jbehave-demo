@@ -35,7 +35,7 @@ public class ShoppingCartSteps extends Steps {
         shoppingCart.removeItem(200);
     }
 
-    @Then("cart has one less items")
+    @Then("cart has one fewer items")
     public void verifyItemCount() {
         assertEquals(2, shoppingCart.getSize());
     }
